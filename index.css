@@ -1,0 +1,67 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url('/Users/aubree/Scrimba projects/2-basketball-scoreboard/CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'CursedTimerUlil', Verdana, Tahoma, sans-serif;
+}
+
+.title {
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+
+
+button {
+    font-family: 'CursedTimerUlil', Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    color: #F0F9FF;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background: #0369A1;
+    border: 5px solid #ECFDF5;
+    border-radius: 20px;
+    width: 570px;
+    margin: 300px auto;
+}
+
+
+#home-side {
+    margin: 25px 0 0 50px;
+}
+
+#guest-side {
+    margin: 25px 50px 0;
+}
+
+.scores {
+    width: 155px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    margin: 0;
+    color: #F59E0B;
+    background: #0C4A6E;
+    font-weight: normal;
+    text-shadow: 1px 1px #7DD3FC;
+}
+
+
+.score-btn {
+    font-size: 18px;
+    color: #7DD3FC;
+    background: #0369A1;
+    width: 45px;
+    height: 45px;
+    margin: 26px 0 70px;
+    border: 1px solid #7DD3FC;
+    border-radius: 5px;
+}
